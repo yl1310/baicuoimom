@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+	background-color: #E5E5E5;font-size: 16px;
+}
+.topbar{
+	width: 100%;
+	height:50px;
+	line-height: 50px;
+	color:white;
+}
+.topbar a{
+	color: white;
+}
+.topbar a:hover{
+	color:#FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+padding:10px 20px;
+border-radius:20px}	 
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#8B9FCF; background-color: #CCD6E4
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;color:white;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color:white ;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	color:white ;
+	background-color: #FFC113;
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+
+.navbar .navbar-nav .nav-item{
+	color:#FFC113;
+}
+main{
+	width:100%; min-height: 800px;
+}
+.bottom-bar{
+	text-align: center;
+	width:100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #FFC113;color: white;
+		
+}
+.btn-secondary{
+	background-color: #FFC113;
+}
+.btn-secondary:hover{
+	background-color:#FFE6A1;
+}
+.nav-link:hover{
+	color:#C11A1D;
+}
+#service a{
+	text-decoration: none;
+	color:#413F3A;
+}
+#service a:hover{
+	color:#817E3E;
+}
+#why{
+	width:100%;
+	min-height: 400px;
+	background-image: url("../images/why.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hinh-anh .hinh{
+	position:relative;
+	
+}
+#hinh-anh .truoc{
+	position:absolute;
+	left: 0;top:0;
+	padding:5px;
+	background-color: #ededed;
+}
+#hinh-anh .sau{
+	position:absolute;
+	left: 50%;top:0;
+	padding:5px;
+	background-color: #ededed;
+}
+#banner{
+	width:100%;
+	min-height: 300px;
+	background-image: url("../images/pageheader.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:top left;
+}
+#thong-tin{
+	margin-top: 85px;
+}
+#ban-do{
+	margin-bottom: 100px;
+	margin-top: 80px;
+}
+.avt{
+	width:80px;
+	height:80px;
+	border-radius:50px;
+}
+#cn .client{
+	padding: 5px 30px;
+	align-items: center;
+	flex-direction: column;
+	display:flex;
+}
+#cn .client img{
+	width:93px;
+	height:93px;
+	
+}
+#cn .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #B8C4D7
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#0d6efd;
+      text-decoration: none; }
+#cn .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#aaccfe;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #cn .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background:#0d6efd
+}
+.btn-secondary{
+	border: 1px solid white;
+}
+.btn-secondary:hover{
+	border: 1px solid #FFC113;
+}
+.text-red{
+	color:red;
+}
+#tin-tuc h5:hover{
+	color:#FFC113;
+}
+#aside .nav .nav-item .nav-link{
+	color:#666666;
+}
+#aside .nav .nav-item .nav-link span{
+	color:red;
+}
+#aside .nav .nav-item .nav-link:hover span{
+	color:#FFC113;
+}
+#aside li{
+	list-style: none;
+}
+a{
+ text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:#FFC113;
+}
+.box{
+	width:58px;
+	height:28.5px;
+	border-radius: 3px;
+	background-color: #666666;
+	margin: 0 3px;
+}
+.boxnho{
+	width:28.5px;
+	height:28.5px;
+	border-radius: 3px;
+	background-color: #666666;
+	margin: 0 3px;
+}
+.box:hover{
+	background-color:#0d6efd}
+.boxnho:hover{
+	background-color:#0d6efd}
+.btn-primary:hover{
+	background-color: #FFC113
+}
+h5:hover{
+	color:#FFC113;
+}
+.bacsi{
+	width:180px;
+		height:180px;
+	border-radius: 100px;	
+}
